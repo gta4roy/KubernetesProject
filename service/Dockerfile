@@ -1,6 +1,9 @@
 #start by pulling the python image 
 FROM python:3.8-alpine
 
+#for Rasberry PI
+#FROM arm32v7/python
+
 #switch working directory 
 WORKDIR /app
 
